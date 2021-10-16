@@ -1,0 +1,69 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+}
+  
+#root {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+nav {
+  background-color: #20232A;
+  color: #61DAFB;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: #61DAFB;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  line-height: 1.4rem;
+  margin: auto;
+  max-width: 80%;
+}
+
+img {
+  margin: auto;
+  max-width: 600px;
+}
+
+.attribution {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  background-color: #20232A;
+  color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 30px;
+  vertical-align: bottom;
+}
+
+footer a {
+  color: #61DAFB;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #333333;
+    --text-color: #ffffff;
+  }
+}
+
